@@ -1,0 +1,24 @@
+{
+  "name": "ssc",
+  "version": "0.0.1",
+  "description": "a ss controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xiaoliwang/ssc.git"
+  },
+  "author": "TomCao <jiepengthegreat+ssc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoliwang/ssc/issues"
+  },
+  "homepage": "https://github.com/xiaoliwang/ssc#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.3",
+    "npm": "^5.8.0",
+    "randomstring": "^1.1.5"
+  }
+}
