@@ -17,10 +17,10 @@ for (let receiver in receivers) {
     let password = config.port_password[port];
     let method = config.method;
     let text = { port, password, method };
-    // sendEmail(email, JSON.stringify(text, null, 4));
+    sendEmail(email, JSON.stringify(text, null, 4));
 }
 
-console.log(`ssserver -c ${config_path} -d restart`);
+exec(`ssserver -c ${config_path} -d restart`);
 
 function sendEmail(email, text) { 
     let mailOptions = {
